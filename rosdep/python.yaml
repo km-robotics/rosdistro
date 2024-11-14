@@ -9829,6 +9829,18 @@ python3-streamlit-pip:
   '*':
     pip:
       packages: [streamlit]
+python3-streamz:
+  ubuntu:
+    '*': [python3-streamz]
+    bionic:
+      pip:
+        packages: [streamz]
+    focal:
+      pip:
+        packages: [streamz]
+    jammy:
+      pip:
+        packages: [streamz]
 python3-suas-interop-clients-pip:
   debian:
     pip:
